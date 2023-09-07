@@ -1,4 +1,42 @@
  .body{
-    background-color: rgb(176, 176, 252);
+    background-color: #4b4949;
  }
  
+ .t{
+   color: #ffffff;
+ }
+
+ .text-center{
+   color: #ffffff;
+ }
+
+ .card{
+   width: 330px;
+   border-radius: 18px;
+   background: -webkit-linear-gradient(top,#727170,#a09e9e);
+ }
+
+ .login{
+ color:#eae8e7!important ;
+ }
+
+ input{
+   border-color: #656e6e !important;
+   background-color: transparent !important ;
+   color: #eae8e7 !important ;
+   margin-bottom: -60px;
+   height: 27px;
+ }
+ 
+.t{
+-webkit-text-fill-color: #f5f0f0;
+}
+
+.p{
+  -webkit-text-fill-color:rgb(28, 29, 29);
+  text-align: center;
+}
+
+.p:active{
+  color: brown;
+}

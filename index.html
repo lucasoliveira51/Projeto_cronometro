@@ -9,35 +9,38 @@
 </head>
 
 <body class="body">
-
-    <header class="text-center mb-4">
-        <h2>Cronômetro</h2>
-    </header>
+  
 
     <div class="container-fluid mb-5">
-
-        <img class="container-fluid" src="/assents/cronometro.avif" alt="Cronômetro" style="max-width: 100%;">
     </div>
 
-   <section class="text-center p-4">
-    <form>
-        <p>Coloque seu login</p>
+   <section class="text-center p-4 " >
 
-        <div class="form-outline mb-3">
-          <input type="email" class="form-control" placeholder="Digite seu E-mail" />
+    <div class="card p-2 container-fluid">
+      <form>
+        <h2 class="login" style="margin-top: 13%;">Cronômetro</h2>
+
+        <div class="t form-outline m-5 p-2">
           <label class="form-label" for="form2Example11">E-mail</label>
+          <input id="email" type="email" class="p form-control " placeholder="Digite seu E-mail"/>
         </div>
 
-        <div class="form-outline mb-4"  >
-          <input type="password" class="form-control" placeholder="Digite sua senha" />
+        <div class="t form-outline m-5 p-2">
           <label class="form-label">Senha</label>
+          <input id="senha" type="password" class="p form-control" placeholder="Digite sua senha" dir="ltr"/>
         </div>
-
-        <div class="text-center pt-1 mb-5 pb-1">
-          <button class="btn btn-primary btn-block gradient-custom-2 mb-3" type="button">Login</button>
+        
+        <div class="botao text-center pt-2 mb-5 pb-1 container-fluid">
+          <button class="btn btn-primary mb-3" style="margin-top: 25px;   width: 50%; color:rgb(199, 193, 193); background-color:#4b4949" type="submit" onclick="logar()">Entrar</button>
         </div>
       </form>
+      
+
+    </div>
+
     </section>
     
+<script type="text/javascript" src="script.js"> </script>
+
 </body>
 </html>
