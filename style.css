@@ -3,46 +3,12 @@
   src: url("/assets/digital-7.ttf");
 }
 
-.body {
-  background-color: #4b4949;
-}
-
-.t {
-  color: #ffffff;
-}
-
-.card {
-  width: 330px;
-  border-radius: 18px;
-  background: -webkit-linear-gradient(top, #727170, #a09e9e);
-}
-
-.login {
-  color: #eae8e7 !important ;
-}
-
-input {
-  border-color: #656e6e !important;
-  background-color: transparent !important ;
-  color: #eae8e7 !important ;
-  height: 27px;
-}
-
-.t {
-  -webkit-text-fill-color: #f5f0f0;
-}
-
-.p {
-  -webkit-text-fill-color: rgb(28, 29, 29);
-  text-align: center;
+.card-custom {
+  width: 300px;
 }
 
 input:focus {
   box-shadow: none !important;
-}
-
-.btn-primary {
-  border-color: none !important;
 }
 
 .font-digital {
