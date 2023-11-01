@@ -18,7 +18,7 @@ const logar = () => {
   const senha = document.getElementById("senha").value;
 
   if (validation(email, senha)) {
-    window.location.href = "/pagina_inicial.html";
+    window.location.href = "pagina_inicial.html";
   } else {
     alert("Login invalido!");
   }
